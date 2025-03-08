@@ -34,23 +34,23 @@ header {
 }
 
 header img {
-  width: 8rem;
+  width: 5rem;
   object-fit: contain;
-  margin: 3rem auto 1rem auto;
+  margin: 1rem auto 0.5rem auto;
   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
 }
 
 h1 {
   font-family: 'Caprasimo', cursive;
-  font-size: 3rem;
-  margin: 0 auto 3rem auto;
+  font-size: 2rem;
+  margin: 0 auto 0 auto;
   color: #3f3b00;
 }
 
 #game-container {
-  max-width: 45rem;
-  margin: 3rem auto;
-  padding: 2rem;
+  max-width: 30rem;
+  margin: 1rem auto;
+  padding: 1rem;
   border-radius: 6px;
   background: linear-gradient(#383624, #282617);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -64,7 +64,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 #players li {
@@ -89,7 +89,7 @@ h1 {
   border: none;
   background: none;
   color: #c3ba78;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   cursor: pointer;
   transition: color 0.2s;
   padding: 0.5rem 0.25rem 0.25rem 0.25rem;
@@ -109,10 +109,9 @@ h1 {
 
 .player-name {
   display: inline-block;
-  width: 10rem;
-  font-size: 1rem;
+  width: 5rem;
+  font-size: 0.8rem;
   color: #e1dec7;
-  text-transform: uppercase;
   margin: 0;
   padding: 0.5rem;
   border-radius: 4px;
@@ -122,19 +121,18 @@ h1 {
 
 .player input {
   font: inherit;
-  font-size: 1rem;
-  width: 10rem;
+  font-size: 0.8rem;
+  width: 5rem;
   border: none;
   padding: 0.5rem;
   animation: pulse-text 2s infinite;
   background-color: #46432f;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .player-symbol {
   margin-left: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #e1dec7;
 }
 
@@ -163,7 +161,7 @@ ol {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin: 3rem 0;
   padding: 0;
   flex-direction: column;
@@ -173,18 +171,18 @@ ol {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
 
 #game-board button {
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
   border: none;
   background: #aca788;
   color: #3f3b00;
-  font-size: 5rem;
+  font-size: 3rem;
   cursor: pointer;
   font-family: 'Caprasimo', cursive;
   padding: 1rem;
@@ -243,7 +241,7 @@ ol {
   max-width: 20rem;
   color: #3f3b00;
   list-style: none;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 0;
   text-align: center;
 }
